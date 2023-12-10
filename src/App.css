@@ -5,10 +5,19 @@ body {
 @font-face {
   font-family: 'Dragon';
   src: url('./assets/dragon_alphabet.ttf');
+
+  font-family: 'Cthulhu';
+  src: url('./assets/Cthulhu-Regular.ttf');
 }
 
 .dragonAlphabet {
   font-family: 'Dragon';
+  background-color: transparent;
+  height: 500px;
+}
+
+.cthulhuAlphabet {
+  font-family: 'Cthulhu';
   background-color: transparent;
   height: 500px;
 }

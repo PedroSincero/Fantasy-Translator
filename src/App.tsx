@@ -24,12 +24,12 @@ function App() {
 
   return (
     <div>
-      <h1>Tradutor de Codigo Chuthulo</h1>
+      <h1>Gerador de Texto Fantasioso</h1>
         <textarea name="text" id="text" onChange={({target: {value}}) => setText(value)} />
       
       <div>
         <button type="button" onClick={downloadScreenshot}>Screenshot</button>
-        <div className='dragonAlphabet' ref={ref}>
+        <div className='cthulhuAlphabet' ref={ref}>
           <p>{text}</p>
         </div>
       </div>
