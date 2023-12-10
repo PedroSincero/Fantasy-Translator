@@ -1,0 +1,14 @@
+body {
+  background-color: antiquewhite;
+}
+
+@font-face {
+  font-family: 'Dragon';
+  src: url('./assets/dragon_alphabet.ttf');
+}
+
+.dragonAlphabet {
+  font-family: 'Dragon';
+  background-color: transparent;
+  height: 500px;
+}
